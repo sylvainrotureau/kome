@@ -1,0 +1,78 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #003E52;
+  text-align: center;
+  /* ************** menu ************** */
+  /* ************** section top-image ************** */
+  /* ************** section Kome Waza ************** */
+  /* ************** signature ************** */
+}
+
+body header {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header nav ul li {
+  list-style: none;
+  margin: 15px;
+}
+
+body header nav ul li a {
+  text-decoration: none;
+}
+
+body header nav ul li a :hover {
+  color: #6cadc2;
+}
+
+body header nav ul li a :visited {
+  color: #003E52;
+}
+
+body #top-image img {
+  height: 80vh;
+}
+
+body #spices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #spices #text-spices {
+  margin-top: 80px;
+  text-align: right;
+  margin-right: 100px;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+body #signature {
+  margin: 0 25nw;
+}
+
+body #signature h1 {
+  border-bottom: #003E52 1px solid;
+}
+
+body #signature hr {
+  width: 600px;
+}
+/*# sourceMappingURL=style.css.map */
