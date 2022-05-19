@@ -1,0 +1,144 @@
+body {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #003E52;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header nav ul li {
+  list-style-type: none;
+  margin: 15px;
+  font-size: 20px;
+}
+
+body header nav ul li a {
+  text-decoration: none;
+}
+
+body header nav ul li a:hover {
+  color: #6cadc2;
+}
+
+body header nav ul li a:visited {
+  color: #003E52;
+}
+
+body #images-bol {
+  background: url("../images/header-image.jpg");
+  height: 80vh;
+}
+
+body #epices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #epices #images-epices {
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+}
+
+body #epices #texte-kome-waza {
+  text-align: right;
+  -ms-flex-preferred-size: 29%;
+      flex-basis: 29%;
+  margin-top: 100px;
+}
+
+body #epices #texte-kome-waza h1 {
+  margin-right: 50px;
+}
+
+body #epices #texte-kome-waza p {
+  margin-right: 50px;
+}
+
+body #textsection {
+  margin: 0 25vw;
+}
+
+body #textsection h1 {
+  border-bottom: #003E52 1px solid;
+  font-size: 30px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+body #textsection i {
+  margin-right: 20px;
+  color: #7FA6AD;
+  font-size: 20px;
+}
+
+body #textsection p {
+  text-align: left;
+  margin-top: 20px;
+}
+
+body #textsection h2 {
+  text-align: left;
+  margin-top: 20px;
+}
+
+body #textsection p {
+  text-align: left;
+}
+
+body #textsection p img {
+  width: 100%;
+}
+
+body #sushis {
+  margin-top: 80px;
+}
+
+body iframe {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  margin-top: 20px;
+}
+
+body footer {
+  background: #003E52;
+  height: 200px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body footer p {
+  margin-top: 20px;
+}
+/*# sourceMappingURL=style.css.map */

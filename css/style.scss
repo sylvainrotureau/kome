@@ -1,0 +1,134 @@
+// variables
+$color1: #003E52;
+$color2: #6cadc2;
+$color3: #7FA6AD;
+
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #003E52;
+
+    // HEADER
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        nav ul {
+            display: flex;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            margin: 15px;
+            font-size: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            color: $color2;
+        }
+
+        nav ul li a:visited {
+            color: $color1;
+        }
+    }
+
+    // BOLS
+    #images-bol {
+        background: url('../images/header-image.jpg');
+        height: 80vh;
+    }
+
+    // EPICES
+    #epices {
+        display: flex;
+        justify-content: center;
+
+        #images-epices {
+            flex-basis: auto;
+        }
+
+        #texte-kome-waza {
+            text-align: right;
+            flex-basis: 29%;
+            margin-top: 100px;
+
+            h1 {
+                margin-right: 50px;
+            }
+
+            p {
+                margin-right: 50px;
+            }
+        }
+    }
+
+    // SIGNATURE
+    #textsection {
+        margin: 0 25vw;
+
+        h1 {
+            border-bottom: $color1 1px solid;
+            font-size: 30px;
+            margin-bottom: 50px;
+            margin-top: 30px
+        }
+
+        i {
+            margin-right: 20px;
+            color: $color3;
+            font-size: 20px
+        }
+
+        p {
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        h2 {
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        p {
+            text-align: left;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    // SUSHIS
+    #sushis {
+        margin-top: 80px;
+    }
+
+    // IFRAME
+    iframe {
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+        -o-filter: grayscale(100%);
+        margin-top: 20px;
+    }
+
+    // FOOTER
+    footer {
+        background: $color1;
+        height: 200px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        p {
+            margin-top: 20px;
+        }
+    }
+}
